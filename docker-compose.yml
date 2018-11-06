@@ -1,0 +1,10 @@
+version: '3'
+services:
+  fogapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fogapi:latest
+    ports: 
+     - "6969:6969"
+     
